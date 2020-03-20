@@ -1,0 +1,42 @@
+{
+  "name": "iscva",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "@tensorflow/tfjs-core": "0.14.3",
+    "@tensorflow/tfjs-tsne": "0.2.0",
+    "eslint-plugin-react-hooks": "^1.4.0",
+    "plotly.js": "^1.43.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-draggable": "^3.1.1",
+    "react-plotly.js": "^2.2.0",
+    "react-scripts": "2.1.3",
+    "react-select": "^2.4.2",
+    "rxjs": "^6.5.2",
+    "typeface-roboto": "^0.0.54"
+  },
+  "scripts": {
+    "doversion": "node git.version.js",
+    "start": "yarn doversion; react-scripts start",
+    "build": "yarn doversion; node --expose-gc --max-old-space-size=32276 node_modules/react-scripts/scripts/build.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.2"
+  }
+}

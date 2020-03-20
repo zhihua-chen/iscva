@@ -1,0 +1,17 @@
+{
+    "tsneComputationDefaults": {
+        "perplexity": 16,
+        "npcs": 60,
+        "maxPerplexity": 39,
+        "minPerplexity": 1
+    },
+    "plottingDefaults": {
+        "maxRowsInTooltip": 10,
+        "highlightOpacity": 0.5,
+        "highlightSize": 8,
+        "backgroundOpacity": 0.3,
+        "backgroundSize": 2,
+        "highlightBorderWidth": 1,
+        "backgroundBorderWidth": 0
+    }
+}

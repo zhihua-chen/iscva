@@ -1,0 +1,14 @@
+{
+    "defaultDataUrls": [
+        {"name":"Tirosh t nks", "url": "http://zc:8001/project/tirosh/tNks",
+            "dataAPI": "http://zc:8001/project/tirosh"},
+        {"name":"Tirosh myeloids", "url":"http://zc:8001/project/tirosh/myeloids",
+            "dataAPI": "http://zc:8001/project/tirosh"},
+        {"name":"Tirosh B cells", "url":"http://zc:8001/project/tirosh/bcells",
+            "dataAPI": "http://zc:8001/project/tirosh"},
+        {"name":"Tirosh", "url": "http://zc:8001/project/tirosh/all",
+            "dataAPI": "http://zc:8001/project/tirosh"}
+
+    ]
+}
+
